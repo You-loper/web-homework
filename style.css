@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-footer p,.box p, .text p, .text h3{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 15px 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.773);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.left-side p{
+    align-items: left;
+    width: 5%; 
+    transform: rotate(-90deg);
+}
+.left-side p:nth-child(2){
+    text-decoration: underline;
+    text-decoration-color:#038a97;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+.left-side{
+    width: 5%;
+    height: 60%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-self: center;
+    flex-direction: column-reverse;
+}
+.first_part{
+    background-color: rgba(150, 134, 134, 0.36);
+    display: flex;
+    width: 95%;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-content:center; 
+    margin-left: auto;
+    border-radius: 20px;
+    width: 80%;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.pf{
+    width: 50px; height: 50px;  
+    background-image: url("./Image/p3.jpg");
+    background-size: cover;
+    border-radius: 50% ;
+    border:#333 3px solid;
+    background-position: center;
+}
+.text h3, .text2 h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.text p{
+    font-size: 12px;
+}
+.buttom-part{
+    display: flex;
+    justify-content: space-between;
+}
+.buttom-part .text{
+    display: flex;
+    flex-direction: column;
+}
+.buttom-part .text2{
+    text-align: right;
+    margin-top: 20px;
+}
+.buttom-part .text2 h3,.text2 p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-left,.card-right{
+    border-radius: 10%;
+    width:100%;
+    height: 90%;
+    margin-top: 10px;
+}
+.card-left .first{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.card-info .box,.card-info-right .box{
+    border-radius: 10px;
+    width: 170px;   
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.673);
+    place-self: center;
+    margin-bottom: 25px;   
+    color: black; 
+    
+}
+.card-info-right .box p{
+    text-align: left;
+}
+/* .card-info .box .text,.card-info-right .box .text{
+    padding-top: 20px;
+} */
+.card-left{margin-left: 30px;}
+.card-right{margin-right: 60px;}
+.first,.second{
+    width: 90%;
+    height: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    align-self: center;
+    padding-left: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.first .text{
+    align-self: flex-end;
+    
+}
+.second{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 35%;
+    /* flex-direction:row; */
+}
+.img2{
+    width: 80px;
+    height: 80%;
+    background-image: url(./Image/long-set-beach-koh-rong.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.416);
+}
+.pic-card2{
+    margin-top: 10px;
+    width: 100%; height: 80%;  
+}
+.pic-card2 .text2{
+    height: 80%; width: 80%;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.box-footer .fa-star, .fa-star{
+    color:rgb(244, 203, 70);
+    font-size: 10px;
+}
+.outter-card{
+    width: 100%;
+    position: relative;
+    height: 100px;
+    bottom:72px;
+}
+.card-info .box{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-info-right .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-info .box p{
+    text-align: start;
+}
+.inner-card{
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+    border: black;
+    position:absolute;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.416);
+}
+.outter-card .inner-card:nth-child(1){
+    background-image: url(./Image/KT\ beautifull\ place.jpg);
+    background-size: cover;
+    left: 0;
+}
+.outter-card .inner-card:nth-child(2){
+    background-image: url(./Image/img_row1_col1.jpg);
+    background-size: cover;
+    right: 42px;
+}
+.outter-card .inner-card:nth-child(3){
+    background-image: url(./Image/longset3.jpg);
+    background-size: cover;
+    right: 5px
+}
+/* .button{
+    display: flex;
+    flex-direction: row;
+} */
+.card-info,.card-info-right{
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.607);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.card-info{
+    background-image: url(./Image/long-set-beach-koh-rong.jpeg);
+}
+.card-info-right{
+    margin-top: -2px;
+    background-image: url(./Image/KT\ swimmig\ view.jpg);
+}
+.card-info-right .text{
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.pic-card2{
+    width: 50%;
+}
+.text-content{
+    margin-left: auto;
+    text-align: left;
+    border-radius: 20px;
+    width: 50%;
+    /* padding-left:0px;
+    padding-right: 20px; */
+    margin-right: 10px;
+    align-content: center;
+}
+
+.text-content h1::first-letter{
+    color: #038a97;
+    font-size: 5rem;
+    font-size: bold;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+nav ul li a:visited{
+    color: #038a97;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+nav ul li a:active{
+    color: red;
+}
+.contact-btn {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color:#038a97 ;
+    /* border: #038a97 1px solid;   */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,3, 0, 0.5);
+    transition: all ease-in-out 0.5s;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.contact-btn:hover {
+    background:#038a97;
+    color:white ;
+    /* border: #038a97 1px solid;   */
+}
+.contact-btn:{
+    border: #038a97 1px solid;
+}
+.hero {
+    padding:50px;
+    margin-right: 35px;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    border-radius: 30px;
+    margin-top: 50px; 
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.hero .highlight {
+    color: #038a97;
+}
+.explore-btn {
+    padding: 10px 20px;
+    border: none;
+    background:#038a97 ;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,3, 0, 0.5);
+}
+.chill-btn{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 40px;
+    transition: background 0.5s;
+    
+}
+.chill-btn .fa-play{
+    /* color: black; */
+    color: #038a97;
+    border: white;
+}
+.chill-btn:hover{
+    border:#038a97 2px solid;
+}
+.explore-btn:hover {
+    background:white;
+    color: #038a97;
+}
+.card:hover {
+    transform: scale(1.2);
+}
+.explore {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    transition: all 1s ease-in-out ;
+}
+.explore h2 {
+    font-size: 2rem;
+}
+/* --------- container2 --------- */
+.container2 {
+    width: 75%;
+    margin: 0 auto;
+    height: 400px;
+   
+}
+.container2 .hero-section {
+    width: 40%;
+    height: 200px;
+    float: left;
+    align-items: center;
+    margin-top: 4rem;
+}
+.container2 .images-section {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+.hero-subtitle {
+    font-size: 1.2rem;
+    color:black;
+    margin-bottom: 5rem;
+}
+.hero-section .explore-btn {
+    border: 2px solid #038a97;
+    padding: 7px 17px;
+    border-radius: 20px;
+    background: transparent;
+    color: #038a97;
+    transition: all 1s;
+}
+.hero-section .explore-btn:hover {
+    background-color: #1e9797;
+    color: white;
+    cursor: pointer;    
+}
+.images-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: self-end;
+}
+.images-section .image-card, .image-card.middle{
+    width: 215px;
+    height: 290px;
+    margin-top: -40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0.5px 10px #bbbbbb;
+    transition: 0.4s ease-in-out;
+}
+.images-section .image-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.images-section .image-card2:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.images-section .image-card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.image-card.middle{
+    align-self: self-end;
+    margin-bottom:20px;
+}
+/* ------- container3 ---------- */
+.container3 {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.travel-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.container3 .travel-title h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+}
+.travel-list{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.travel-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.travel-image-section{
+    width: 370px;
+    height: 500px;
+    position: relative;
+}
+.travel-image-section .travel-thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.travel-list ul .travel-list-item {
+    padding: 15px 0;
+    list-style-type: none;
+}
+
+.travel-list-item .number {
+    background-color: #1e9797;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.travel-description {
+    max-width: 350px;
+}
+
+.travel-description h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.travel-description p {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.travel-image-section .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.travel-image-section .user {
+    position: absolute;
+    background-color: #ffffffa8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.travel-image-section .user1{
+    top: 10%;
+    left: -10%;
+}
+.travel-image-section .user2{
+    top: 40%;
+    left: 80%;
+}
+.travel-image-section .user3{
+    bottom: 10%;
+    left: -10%;
+}
+.btn-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; height: 50px;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 4, 0.5);
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    bottom: 10px;
+}
+.btn-back .fa-arrow-up{
+    color: #1e9797;
+}
+/* ---------- footer -------- */
+.footer{
+    margin-top: 30px;
+    background-color: #424242a0;
+    color: white;
+    padding:15px;
+    text-align: center;
+}
